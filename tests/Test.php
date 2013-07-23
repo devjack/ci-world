@@ -4,11 +4,14 @@
  * Date: 23/07/13
  */
 
+use \Snr\CI\HelloWorld;
+
 class Test extends PHPUnit_Framework_TestCase {
 
-    public function testOne()
+    public function testSquawks()
     {
-        $this->assertTrue(TRUE);
+        $hw = new HelloWorld();
+        $this->assertTrue($hw->speak() === "Squawk!");
     }
 
 }
