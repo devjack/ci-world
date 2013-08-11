@@ -16,7 +16,7 @@ class Test extends PHPUnit_Framework_TestCase {
 
     public function dummyAssertion()
     {
-        $this->assert(true);
+        $this->assert(false);
     }
 
 }
