@@ -14,4 +14,9 @@ class Test extends PHPUnit_Framework_TestCase {
         $this->assertTrue($hw->speak() === "Squawk!");
     }
 
+    public function dummyAssertion()
+    {
+        $this->assert(true);
+    }
+
 }
