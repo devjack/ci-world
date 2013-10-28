@@ -8,4 +8,6 @@ echo "Hello CI world.";
 
 $hw = new HelloWorld();
 echo $hw->speak();
+echo "<br><br>";
+echo "Auto deploy... working!";
 ?>
