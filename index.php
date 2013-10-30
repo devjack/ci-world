@@ -10,7 +10,7 @@ echo "An update deployed by codeship.io!<br><br>";
 
 $hw = new HelloWorld();
 echo $hw->speak();
-echo "<br><br>";
+echo "<br>";
 
 echo "Shutting down... :)";
 
