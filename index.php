@@ -4,7 +4,9 @@ include "autoload.php";
 
 use \Snr\CI\HelloWorld;
 
-echo "Hello CI world.";
+echo "Hello CI world.<br><br>";
+
+echo "An update deployed by codeship.io!<br><br>";
 
 $hw = new HelloWorld();
 echo $hw->speak();
